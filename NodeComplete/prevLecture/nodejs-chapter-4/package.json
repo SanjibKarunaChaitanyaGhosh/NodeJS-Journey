@@ -1,0 +1,20 @@
+{
+  "name": "serverjourney",
+  "version": "1.0.0",
+  "description": "for students",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Sanjib Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3"
+  }
+}

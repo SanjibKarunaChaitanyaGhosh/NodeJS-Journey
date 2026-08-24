@@ -7,7 +7,7 @@ dotenv.config()
 
 const PORT=process.env.PORT
 
-//routing
+//routing - endPoints - if we want to protect this have to use middleware
 app.use("/api",router)
 
 app.get('/',(req,res)=>{
